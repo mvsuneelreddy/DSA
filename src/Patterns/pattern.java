@@ -2,7 +2,7 @@ package Patterns;
 
 public class pattern {
     public static void main(String[] args) {
-        pattern8(5);
+        pattern9(5);
     }
 
     private static void pattern1(int n) {
@@ -79,6 +79,11 @@ public class pattern {
             }
             System.out.println();
         }
+    }
+
+    private static void pattern9(int n){
+        pattern7(n);
+        pattern8(n);
     }
 
 }
